@@ -9,6 +9,7 @@ with open("reviews.txt", "r") as f:
 print("Finish read, there are: ", len(data), "data in file")
 
 sum_len = 0
+#d is string type, data is list type
 for d in data:
     sum_len = sum_len + len(d)
-print("The avg length is ", sum_len/len(data) )
+print("The avg length is ", sum_len/len(data))
